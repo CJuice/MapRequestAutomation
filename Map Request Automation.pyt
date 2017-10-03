@@ -1,5 +1,5 @@
 import os, arcpy, re, sys, string
-'''This Python toolbox was setup and usable on 6/8/16 by Conrad Schaefer.'''
+'''This Python toolbox was setup and usable on 6/8/16 by CJuice on GitHub.'''
 '''It took the two map request automation steps (step1 and step2) and pulled them from the old toolbox style and revised the code to work in the new Python Toolbox style'''
 
 class Toolbox(object):
@@ -167,7 +167,7 @@ class Step2(object):
 
         ###################################
         # Script:  GISRequest_AutomationTest.py
-        # Author:  Conrad Schaefer
+        # Author:  CJuice on GitHub
         # Date Created:  09/11/2015
         # Python 2.7, ArcGIS 10.3
         # Purpose:  Grab items from the GIS Request emails and stick them into the map template to save time. This script
@@ -878,7 +878,7 @@ class Floorplan(object):
     def execute(self, parameters, messages):
         ###################################
         # Script:  ExportFloorPlanMap_Script.py
-        # Author:  Conrad Schaefer
+        # Author:  CJuice on GitHub
         # Date Created:  06/23/2015
         # Purpose:  Automate the print out of floorplan maps for Patty.
         # Inputs:  No Inputs
